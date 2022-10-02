@@ -1,4 +1,4 @@
-package LC_58;
+package LC_58_Length_Of_Last_Word;
 
 public class MainApp {
 
