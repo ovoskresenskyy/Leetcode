@@ -19,6 +19,7 @@ public class MainApp {
             //Use binary search
             int mid = start + (end - start) / 2;
 
+            // Использовано деление, чтоб избежать переполнение Integer при умножении больших чисел
             if (mid <= x / mid) {
                 result = mid;
                 start = mid + 1;
